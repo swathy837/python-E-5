@@ -17,7 +17,7 @@
  19 student2 = Student("Swathy", [78, 82, 80, 76])
  20 student3 = Student("Anu", [95, 98, 91, 94])
  21 students_list = [student1, student2, student3]
- 22 highest_mark_holder = max(students_list, key=lambda student:
+ 22 highest_mark_holder = max(students_list, key=lambda student):
  23 student.calculate_total())
  24
  25 print("\nDetails of the student with the highest total marks:\n")
